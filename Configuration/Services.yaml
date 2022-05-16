@@ -20,6 +20,7 @@ services:
     public: true
 
   Supseven\Cleverreach\Powermail\Finisher\CleverReach:
+    autowire: false
     public: true
 
   Supseven\Cleverreach\CleverReach\Api:
